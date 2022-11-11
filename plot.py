@@ -43,7 +43,11 @@ def histogramplot():
     f=plt.hist(df.Brand)
     plt.xticks(rotation=45) #To avoid overlapping in axis
     plt.show()
-    
-lineploting()  
+
+
+
+
+lineplot()
 barplot() 
-histogramplot()    
+histogramplot() 
+   
