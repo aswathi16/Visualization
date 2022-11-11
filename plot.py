@@ -23,7 +23,6 @@ def lineplot():
     plt.show()
 
 
-lineploting()
 
 
 def barplot():
@@ -33,7 +32,7 @@ def barplot():
     f=plt.bar(df.Brand,df.TopSpeed)
     plt.show()
 
-barplot()    
+   
 
 
 def histogramplot():
@@ -44,4 +43,7 @@ def histogramplot():
     f=plt.hist(df.Brand)
     plt.xticks(rotation=45) #To avoid overlapping in axis
     plt.show()
+    
+lineploting()  
+barplot() 
 histogramplot()    
